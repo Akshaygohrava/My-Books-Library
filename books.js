@@ -131,7 +131,7 @@ async function searchBooks() {
         return;
     }
     
-    showLoading();
+    showLoading(); 
     
     try {
         const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&maxResults=24`;
